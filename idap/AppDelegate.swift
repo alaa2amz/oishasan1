@@ -12,9 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var MainStoryBoard : UIStoryboard!
+    var menueVieweController : UIViewController!
+    
+func getMenueView() -> UIView!
+{
+    return menueVieweController.view.subviews[0]
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        MainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+        menueVieweController = MainStoryBoard.instantiateViewController(withIdentifier: "menue")
+        
         // Override point for customization after application launch.
         return true
     }

@@ -12,6 +12,13 @@
 		000787861FD3CFF900AFFB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000787841FD3CFF900AFFB82 /* Main.storyboard */; };
 		000787881FD3CFF900AFFB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000787871FD3CFF900AFFB82 /* Assets.xcassets */; };
 		0007878B1FD3CFF900AFFB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000787891FD3CFF900AFFB82 /* LaunchScreen.storyboard */; };
+		000787931FD3D05900AFFB82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000787921FD3D05900AFFB82 /* HomeViewController.swift */; };
+		000787951FD3DCAA00AFFB82 /* PatientDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000787941FD3DCAA00AFFB82 /* PatientDirectoryViewController.swift */; };
+		000787971FD3DD4300AFFB82 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000787961FD3DD4300AFFB82 /* EventsViewController.swift */; };
+		000787991FD3DDE700AFFB82 /* DiseasesGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000787981FD3DDE700AFFB82 /* DiseasesGuideViewController.swift */; };
+		0007879B1FD3DEF200AFFB82 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007879A1FD3DEF200AFFB82 /* ContactUsViewController.swift */; };
+		0007879D1FD3DFD600AFFB82 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007879C1FD3DFD600AFFB82 /* ToolsViewController.swift */; };
+		0007879F1FD3E6D800AFFB82 /* MenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007879E1FD3E6D800AFFB82 /* MenueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		000787871FD3CFF900AFFB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0007878A1FD3CFF900AFFB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0007878C1FD3CFF900AFFB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000787921FD3D05900AFFB82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		000787941FD3DCAA00AFFB82 /* PatientDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDirectoryViewController.swift; sourceTree = "<group>"; };
+		000787961FD3DD4300AFFB82 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		000787981FD3DDE700AFFB82 /* DiseasesGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseasesGuideViewController.swift; sourceTree = "<group>"; };
+		0007879A1FD3DEF200AFFB82 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		0007879C1FD3DFD600AFFB82 /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
+		0007879E1FD3E6D800AFFB82 /* MenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				000787801FD3CFF900AFFB82 /* AppDelegate.swift */,
 				000787821FD3CFF900AFFB82 /* ViewController.swift */,
 				000787841FD3CFF900AFFB82 /* Main.storyboard */,
+				0007879E1FD3E6D800AFFB82 /* MenueViewController.swift */,
+				0007879C1FD3DFD600AFFB82 /* ToolsViewController.swift */,
+				0007879A1FD3DEF200AFFB82 /* ContactUsViewController.swift */,
+				000787981FD3DDE700AFFB82 /* DiseasesGuideViewController.swift */,
+				000787961FD3DD4300AFFB82 /* EventsViewController.swift */,
+				000787941FD3DCAA00AFFB82 /* PatientDirectoryViewController.swift */,
+				000787921FD3D05900AFFB82 /* HomeViewController.swift */,
 				000787871FD3CFF900AFFB82 /* Assets.xcassets */,
 				000787891FD3CFF900AFFB82 /* LaunchScreen.storyboard */,
 				0007878C1FD3CFF900AFFB82 /* Info.plist */,
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000787951FD3DCAA00AFFB82 /* PatientDirectoryViewController.swift in Sources */,
+				0007879F1FD3E6D800AFFB82 /* MenueViewController.swift in Sources */,
 				000787831FD3CFF900AFFB82 /* ViewController.swift in Sources */,
+				0007879B1FD3DEF200AFFB82 /* ContactUsViewController.swift in Sources */,
+				000787991FD3DDE700AFFB82 /* DiseasesGuideViewController.swift in Sources */,
+				0007879D1FD3DFD600AFFB82 /* ToolsViewController.swift in Sources */,
 				000787811FD3CFF900AFFB82 /* AppDelegate.swift in Sources */,
+				000787931FD3D05900AFFB82 /* HomeViewController.swift in Sources */,
+				000787971FD3DD4300AFFB82 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
